@@ -64,7 +64,7 @@ public class Main
     public static String[] getDataConsole()
     {
         System.out.println("Please enter data space separated in following format: " +
-                "\"LastName Firstname MiddleName Birthday(dd.mm.yyyy) phone(11 digits) gender('f' or 'm')\"");
+                "\"LastName Firstname MiddleName Birthday(dd/mm/yyyy) phone(11 digits) gender('f' or 'm')\"");
         Scanner scanner = new Scanner(System.in);
         String consoleInputString = scanner.nextLine();
         consoleInputString = consoleInputString.replaceAll("\\s+"," ");
